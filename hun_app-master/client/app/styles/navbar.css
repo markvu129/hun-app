@@ -1,0 +1,43 @@
+/* Navbar */
+.highlighted:hover {
+  margin-right: 20px;
+  background: #FFBF00 !important;
+  border: none;
+}
+.donation-tab {
+  margin-left: 20px
+}
+
+@media screen and (max-width: 760px){
+  .donation-tab {
+    margin-left: 0px
+  }
+}
+
+.navbar-collapse.collapse {
+  height: auto !important;
+  padding-bottom: 0;
+  overflow: visible !important;
+  visibility: visible !important;
+  width: auto;
+}
+.col-lg-9 {
+  max-width: 100%
+}
+
+.bg-light {
+   background-color: #fff !important;
+}
+
+.navbar-brand {
+  padding-left: 80px;
+}
+
+.navbar-light .navbar-nav .nav-link:not(:last-child) {
+  color: black !important
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+  background: #FFBF00
+}
